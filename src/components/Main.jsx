@@ -2,12 +2,9 @@ import React from 'react'
 
 export default function Main({ref}) {
     return (
-        <div ref={ref} className='bg-white w-full relative flex flex-col h-full justify-center items-center'>
-            <div id='notwen' className='w-full flex justify-center items-center'>
-                <img className='w-[45%]' src="../../logo.png" alt="" />
-            </div>
-            <div className='font-bold tracking-widest text-xl mt-10 text-black'>THIS COIN IS NOT WEN</div>
-            <div className='font-bold text-sm mt-7 text-black'>CA: FnDEPJyuoJZiTrjChALAa4NCz3xJbo2d7UCjsAGbznwd</div>
+        <div ref={ref} className='bg-[#0075ff] w-full relative flex flex-col h-full justify-center items-center'>
+            <div className='font-bold tracking-widest text-5xl mt-10 text-white'>El Zero Academy</div>
+            <div className='text-xl mt-7 text-white text-center'>It is an educational platform that provides many web development paths and learning programming in general,<br /> with detailed interactive explanations in Arabic, and study plans with programming tests and challenges <br /> to ensure understanding and application of the code.</div>
         </div>
     )
 }
