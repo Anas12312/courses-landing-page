@@ -12,6 +12,7 @@ export default {
       },
       fontFamily: {
         'karma': [  'karma' , 'sans-serif'],
+        OpenSans: ['OpenSans', 'serif'],
       }
     },
     
