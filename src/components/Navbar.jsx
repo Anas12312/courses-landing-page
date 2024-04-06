@@ -5,7 +5,8 @@ export default function Navbar({
     scrolltoTracks,
     scrollToLatestLessons,
     scrollToFAQ,
-    scrollToRegister
+    scrollToRegister,
+    scrollToMainRef
 }) {
     return (
         <div className='nav-bar z-10 '>
