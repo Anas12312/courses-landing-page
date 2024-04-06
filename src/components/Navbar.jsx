@@ -9,9 +9,9 @@ export default function Navbar({
     scrollToMainRef
 }) {
     return (
-        <div className='nav-bar z-10 '>
+        <div className='nav-bar z-10'>
             <div className='flex w-[60%] justify-between items-center'>
-                <div className='ml-10 w-16'><img src="../../logo.png" alt="" /></div>
+                <div onClick={scrollToMainRef} className='ml-10 w-16 cursor-pointer '><img src="../../logo.png" alt="" /></div>
                 <div className='h-full flex justify-center items-center'>
                     <div onClick={scrollToStudyPlan} className='nav-bar-item trans'>Study Plan</div>
                     <div onClick={scrolltoTracks} className='nav-bar-item trans'>Tracks</div>

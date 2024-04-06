@@ -15,7 +15,7 @@
   }
 
   .nav-bar-item {
-    @apply flex justify-center items-center text-lg font-extralight p-2 mx-1 rounded-md hover:cursor-pointer hover:bg-slate-700
+    @apply flex justify-center items-center text-lg p-2 mx-1 rounded-md hover:cursor-pointer hover:bg-slate-700
   }
 
   .trans {
