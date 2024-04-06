@@ -1,7 +1,7 @@
 import './styles/App.css'
 import Navbar from './components/Navbar'
 import Main from './components/Main'
-import Token from './components/Token'
+import StudyPlans from './components/Token'
 import Footer from './components/Footer'
 import { useRef } from 'react'
 
@@ -24,7 +24,7 @@ function App() {
         <Main />
       </div>
       <div className='w-full' ref={tokenomicsRef}>
-        <Token />
+        <StudyPlans />
       </div>
       <Footer />
     </div>
