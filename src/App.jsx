@@ -8,6 +8,7 @@ import StudyTracks from './components/StudyTracks'
 import LatestApps from './components/LatestApps'
 import LatestVideos from './components/LatestVideos'
 import LatestArcticles from './components/LatestArcticles'
+import FAQ from './components/FAQ'
 
 function App() {
   const studyPlanRef = useRef(null)
@@ -67,6 +68,10 @@ function App() {
 
       <div className='w-full' ref={latestLessons}>
         <LatestArcticles />
+      </div>
+      
+      <div className='w-full' ref={faqRef}>
+        <FAQ />
       </div>
 
 
