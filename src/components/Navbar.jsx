@@ -17,7 +17,7 @@ export default function Navbar({
                     <div onClick={scrolltoTracks} className='nav-bar-item trans'>Tracks</div>
                     <div onClick={scrollToLatestLessons} className='nav-bar-item trans'>Latest Lessons</div>
                     <div onClick={scrollToFAQ} className='nav-bar-item trans'>FAQ</div>
-                    <div onClick={scrollToRegister} className='nav-bar-item trans'>Register</div>
+                    <div className='nav-bar-item trans'><a href="https://calendly.com/zizo-zoom-z0/30min" target='_blank'>Register</a></div>
                 </div>
             </div>
         </div>
