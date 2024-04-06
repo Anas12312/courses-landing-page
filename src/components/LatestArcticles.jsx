@@ -18,44 +18,44 @@ export default function LatestArcticles({ ref }) {
 
                 <div className='w-full bg-white border-b-2 border-blue-700 rounded-t-xl flex flex-col justify-center items-center hover:bg-[#e2e2e2] hover:transition'>
                     <img className='' src="./panels/latest-art/maxresdefault.jpg" alt="" />
-                    <h6 className=''>
+                    <a href='https://www.youtube.com/watch?v=XHj9Uo6oSWk'target="_blank">
                         Some terms in the world of technology
-                    </h6>
+                    </a>
                 </div>
 
                 <div className='w-full bg-white border-b-2 border-blue-700 rounded-t-xl flex flex-col justify-center items-center hover:bg-[#e2e2e2] hover:transition'>
                     <img className='' src="./panels/latest-art/maxresdefault1.jpg" alt="" />
-                    <h6 className=''>
+                    <a href='https://www.youtube.com/watch?v=_5YQqaD3g5k'target="_blank">
                         Craft WordPress Theme form Scratch
-                    </h6>
+                    </a>
                 </div>
 
                 <div className='w-full bg-white border-b-2 border-blue-700 rounded-t-xl flex flex-col justify-center items-center hover:bg-[#e2e2e2] hover:transition'>
                     <img className='' src="./panels/latest-art/maxresdefault6.jpg" alt="" />
-                    <h6 className=''>
+                    <a href='https://www.youtube.com/watch?v=XHj9Uo6oSWk'target="_blank">
                         Tips regarding site performance
-                    </h6>
+                    </a>
                 </div>
 
                 <div className='w-full bg-white border-b-2 border-blue-700 rounded-t-xl flex flex-col justify-center items-center hover:bg-[#e2e2e2] hover:transition'>
                     <img className='' src="./panels/latest-art/maxresdefault3.jpg" alt="" />
-                    <h6 className=''>
+                    <a href='https://www.youtube.com/watch?v=JdEI8Zaf-lA'target="_blank">
                         Ways to write code with multiple languages
-                    </h6>
+                    </a>
                 </div>
 
                 <div className='w-full bg-white border-b-2 border-blue-700 rounded-t-xl flex flex-col justify-center items-center hover:bg-[#e2e2e2] hover:transition'>
                     <img className='' src="./panels/latest-art/maxresdefault4.jpg" alt="" />
-                    <h6 className=''>
+                    <a href='https://www.youtube.com/watch?v=-LJMgk3OEGc'target="_blank">
                         Things that prevent you from completing tasks
-                    </h6>
+                    </a>
                 </div>
 
                 <div className='w-full bg-white border-b-2 border-blue-700 rounded-t-xl flex flex-col justify-center items-center hover:bg-[#e2e2e2] hover:transition'>
                     <img className='' src="./panels/latest-art/maxresdefault5.jpg" alt="" />
-                    <h6 className=''>
+                    <a href='https://www.youtube.com/watch?v=IH7u1BVtn28'target="_blank">
                         Visual Studio Community Shortcuts
-                    </h6>
+                    </a>
                 </div>
             </div>
 
