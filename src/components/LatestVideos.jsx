@@ -18,44 +18,44 @@ export default function LatestVideos({ref}) {
 
                 <div className='w-full bg-white border-b-2 border-blue-700 rounded-t-xl flex flex-col justify-center items-center hover:bg-[#e2e2e2] hover:transition'>
                     <img className='' src="./panels/latest-vids/maxresdefault.jpg" alt="" />
-                    <h6 className=''>
+                    <a href='https://www.youtube.com/watch?v=XHj9Uo6oSWk'target="_blank">
                         Importing Libs best practices
-                    </h6>
+                    </a>
                 </div>
 
                 <div className='w-full bg-white border-b-2 border-blue-700 rounded-t-xl flex flex-col justify-center items-center hover:bg-[#e2e2e2] hover:transition'>
                     <img className='' src="./panels/latest-vids/maxresdefault1.jpg" alt="" />
-                    <h6 className=''>
+                    <a href='https://www.youtube.com/watch?v=JdEI8Zaf-lA'target="_blank">
                         Programming fundamentals with C++ 
-                    </h6>
+                    </a>
                 </div>
 
                 <div className='w-full bg-white border-b-2 border-blue-700 rounded-t-xl flex flex-col justify-center items-center hover:bg-[#e2e2e2] hover:transition'>
                     <img className='' src="./panels/latest-vids/maxresdefault2.jpg" alt="" />
-                    <h6 className=''>
+                    <a href='https://www.youtube.com/watch?v=_5YQqaD3g5k'target="_blank">
                         How to get money from web development
-                    </h6>
+                    </a>
                 </div>
 
                 <div className='w-full bg-white border-b-2 border-blue-700 rounded-t-xl flex flex-col justify-center items-center hover:bg-[#e2e2e2] hover:transition'>
                     <img className='' src="./panels/latest-vids/maxresdefault3.jpg" alt="" />
-                    <h6 className=''>
+                    <a href='https://www.youtube.com/watch?v=-LJMgk3OEGc'target="_blank">
                         5 opportunities to get more knowldge
-                    </h6>
+                    </a>
                 </div>
 
                 <div className='w-full bg-white border-b-2 border-blue-700 rounded-t-xl flex flex-col justify-center items-center hover:bg-[#e2e2e2] hover:transition'>
                     <img className='' src="./panels/latest-vids/maxresdefault4.jpg" alt="" />
-                    <h6 className=''>
+                    <a href='https://www.youtube.com/watch?v=-LJMgk3OEGc'target="_blank">
                         Development and Income
-                    </h6>
+                    </a>
                 </div>
 
                 <div className='w-full bg-white border-b-2 border-blue-700 rounded-t-xl flex flex-col justify-center items-center hover:bg-[#e2e2e2] hover:transition'>
                     <img className='' src="./panels/latest-vids/maxresdefault5.jpg" alt="" />
-                    <h6 className=''>
+                    <a href='https://www.youtube.com/watch?v=-LJMgk3OEGc'target="_blank">
                         Don't waste college years
-                    </h6>
+                    </a>
                 </div>
             </div>
 

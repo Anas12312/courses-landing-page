@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function LatestApps({ref}) {
+export default function LatestApps({ ref }) {
     return (
         <div ref={ref} className='w-full relative bg-white flex flex-col justify-start items-center pb-8 text-black'>
 
@@ -18,44 +18,44 @@ export default function LatestApps({ref}) {
 
                 <div className='w-full bg-white border-b-2 border-blue-700 rounded-t-xl flex flex-col justify-center items-center hover:bg-[#e2e2e2] hover:transition'>
                     <img className='' src="./panels/latest-apps/maxresdefault.jpg" alt="" />
-                    <h6 className=''>
+                    <a href='https://www.youtube.com/watch?v=XHj9Uo6oSWk'  target="_blank">
                         Hangman Game
-                    </h6>
+                    </a>
                 </div>
 
                 <div className='w-full bg-white border-b-2 border-blue-700 rounded-t-xl flex flex-col justify-center items-center hover:bg-[#e2e2e2] hover:transition'>
                     <img className='' src="./panels/latest-apps/maxresdefault1.jpg" alt="" />
-                    <h6 className=''>
+                    <a href='https://www.youtube.com/watch?v=BfFdfK-QnxU' target="_blank">
                         Page Scroll Progress
-                    </h6>
+                    </a>
                 </div>
 
                 <div className='w-full bg-white border-b-2 border-blue-700 rounded-t-xl flex flex-col justify-center items-center hover:bg-[#e2e2e2] hover:transition'>
                     <img className='' src="./panels/latest-apps/maxresdefault2.jpg" alt="" />
-                    <h6 className=''>
+                    <a href='https://www.youtube.com/watch?v=eqBN6Ds-ToQ' target="_blank">
                         Fetch Repos
-                    </h6>
+                    </a>
                 </div>
 
                 <div className='w-full bg-white border-b-2 border-blue-700 rounded-t-xl flex flex-col justify-center items-center hover:bg-[#e2e2e2] hover:transition'>
                     <img className='' src="./panels/latest-apps/maxresdefault3.jpg" alt="" />
-                    <h6 className=''>
+                    <a href='https://www.youtube.com/watch?v=4RLoFVCaaSo' target="_blank">
                         Quizz App
-                    </h6>
+                    </a>
                 </div>
 
                 <div className='w-full bg-white border-b-2 border-blue-700 rounded-t-xl flex flex-col justify-center items-center hover:bg-[#e2e2e2] hover:transition'>
                     <img className='' src="./panels/latest-apps/maxresdefault4.jpg" alt="" />
-                    <h6 className=''>
-                    How to use curreny API
-                    </h6>
+                    <a href='https://www.youtube.com/watch?v=_odlY3Nh-lU' target="_blank">
+                        How to use curreny API
+                    </a>
                 </div>
 
                 <div className='w-full bg-white border-b-2 border-blue-700 rounded-t-xl flex flex-col justify-center items-center hover:bg-[#e2e2e2] hover:transition'>
                     <img className='' src="./panels/latest-apps/maxresdefault5.jpg" alt="" />
-                    <h6 className=''>
+                    <a href='https://www.youtube.com/watch?v=_odlY3Nh-lU' target="_blank">
                         Guess the world game
-                    </h6>
+                    </a>
                 </div>
             </div>
 
